@@ -1,0 +1,12 @@
+builds:
+- name: forward_interest
+  tasks:
+  - build_teal_leprechauns
+  - read_silver_humans
+  - read_silver_witches
+  - read_teal_fairies
+- name: front_arm
+  tasks:
+  - build_lime_golems
+  - coloring_black_goblins
+  - design_maroon_witches

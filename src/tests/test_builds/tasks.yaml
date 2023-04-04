@@ -1,0 +1,33 @@
+tasks:
+- name: build_teal_leprechauns
+  dependencies:
+  - bring_white_gorgons
+  - coloring_aqua_gorgons
+  - design_fuchsia_gorgons
+- name: read_silver_humans
+  dependencies: []
+- name: read_silver_witches
+  dependencies: []
+- name: read_teal_fairies
+  dependencies: []
+- name: bring_white_gorgons
+  dependencies: []
+- name: coloring_aqua_gorgons
+  dependencies: []
+- name: design_fuchsia_gorgons
+  dependencies:
+  - coloring_aqua_gnomes
+- name: coloring_aqua_gnomes
+  dependencies: []
+- name: build_lime_golems
+  dependencies:
+    - design_maroon_witches
+- name: coloring_black_goblins
+  dependencies: []
+- name: design_maroon_witches
+  dependencies:
+  - build_lime_golems
+  - coloring_black_goblins
+  - create_silver_centaurs
+- name: create_silver_centaurs
+  dependencies: []
