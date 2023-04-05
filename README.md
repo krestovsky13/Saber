@@ -1,5 +1,6 @@
 ### Local launch of the project
 ```
+- lol kek -
 git clone https://github.com/krestovsky13/Saber
 
 docker build -t <image_name> -f Dockerfile .  
